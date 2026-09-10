@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'lmsbackend-updated.vercel.app/api',
+    baseURL: 'https://lmsbackend-updated.vercel.app/api',
 });
 
 api.interceptors.request.use(config => {
